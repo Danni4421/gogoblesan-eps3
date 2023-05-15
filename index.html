@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>✨ Scratch Project ✨</title>
+    <!-- 👇 css code file 👇 -->
+    <link rel="stylesheet" href="./src/style/global.css" />
+  </head>
+  <body>
+    <!-- Integrated Blank From Scratch Project -->
+
+    <div class="container">
+      <div class="inner-container">
+        <div class="input">
+          <input type="text" id="hobbyInput" placeholder="Masukkan Hobi Anda" />
+          <button onclick="saveHobbyInput()">Save</button>
+        </div>
+
+        <div id="list-items">
+          <div class="logo">
+            <h2>List Hobby :</h2>
+            <ul class="item-list" id="item-list">
+              <!-- <li>List</li>
+              <li>List</li>
+              <li>List</li> -->
+            </ul>
+          </div>
+        </div>
+
+        <div class="switcher">
+          <input type="number" placeholder="from" id="from" />
+          <input type="number" placeholder="to" id="to" />
+          <button onclick="switcher()">Switch</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 👇 javascript code file 👇 -->
+    <script src="./src/js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>

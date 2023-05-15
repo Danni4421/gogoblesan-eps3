@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/*? global clearing */
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  width: 30%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input {
+  display: flex;
+  gap: 10px;
+}
+
+.input input {
+  padding: 10px;
+  flex: 5;
+}
+
+button {
+  font-family: monospace;
+}
+
+.input button {
+  flex: 2;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #42ba96;
+  border: 1.5px solid #000;
+  border-radius: 5px;
+  box-shadow: 3px 3px 0px 0px #000;
+}
+
+.switcher {
+  display: flex;
+  gap: 5px;
+}
+
+.switcher input {
+  text-align: center;
+  padding: 10px;
+}
+
+.switcher button {
+  padding: 10px;
+  background-color: #467fd0;
+  border: 1.5px solid #000;
+  border-radius: 5px;
+  box-shadow: 3px 3px 0px 0px #000;
+}
+
+.logo h2 {
+  font-weight: 800;
+  font-size: 0.9rem;
+  font-family: "Poppins";
+}
+
+.item-list {
+  padding-left: 20px;
+}
+
+.item {
+  font-family: "Poppins";
+}
